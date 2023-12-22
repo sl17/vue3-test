@@ -52,7 +52,7 @@ request.interceptors.response.use((response) => {
     return Promise.reject(new Error(error));
 })
 
-export let API = function (url, params, contentType) {
+export let API = function (url:string, params?:any, contentType?:string) {
 
     if (contentType == 'json') {
         return request.post(
