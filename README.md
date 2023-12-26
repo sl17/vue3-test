@@ -3,6 +3,7 @@
 ### 第一步 在 vite.config.ts 里  
 <!-- 引入 -->
 import path from "path"
+// path 下有波浪线   运行  npm install -D @types/node
 
 export default defineConfig({
   <!-- 配置下面的  resolve -->
